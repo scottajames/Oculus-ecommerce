@@ -7,11 +7,6 @@
 	:root {
 		--web-view-ids: Content;
 	}
-
-	html {
-  scroll-behavior: smooth;
-	}
-
 	* {
 		margin: 0;
 		padding: 0;
@@ -19,7 +14,6 @@
 		border: none;
 		font-family: sans-serif;
 	}
-
 	#Content {
 		position: absolute;
 		background: #E5E5E5;
@@ -79,8 +73,8 @@
 	}
 	#VR-Content {
 		position: absolute;
-		left: 50px;
-		top: 840px;
+		left: 100px;
+		top: 900px;
 		overflow: hidden;
 		width: 900px;
 		height: 600px;
@@ -90,6 +84,9 @@
 		font-weight: normal;
 		font-size: 30px;
 		color: rgba(0,0,0,1);
+	}
+	#VR-Content span {
+		font-size: 26px;
 	}
 	#Image_1 {
 		position: absolute;
@@ -142,7 +139,7 @@
 		font-family: Tahoma;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 30px;
+		font-size: 26px;
 		color: rgba(0,0,0,1);
 	}
 	#Image_2_Content {
@@ -156,7 +153,7 @@
 		font-family: Tahoma;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 30px;
+		font-size: 26px;
 		color: rgba(0,0,0,1);
 	}
 	#Image_3_Content {
@@ -170,7 +167,7 @@
 		font-family: Tahoma;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 30px;
+		font-size: 26px;
 		color: rgba(0,0,0,1);
 	}
 	#Image_4_Content {
@@ -184,7 +181,7 @@
 		font-family: Tahoma;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 30px;
+		font-size: 26px;
 		color: rgba(0,0,0,1);
 	}
 	#Image_5_Content {
@@ -198,13 +195,13 @@
 		font-family: Tahoma;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 30px;
+		font-size: 26px;
 		color: rgba(0,0,0,1);
 	}
 	#Image_1_Review {
 		position: absolute;
 		left: 1180px;
-		top: 2050px;
+		top: 2000px;
 		overflow: hidden;
 		width: 650px;
 		height: 70px;
@@ -212,13 +209,13 @@
 		font-family: Tahoma;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 18px;
+		font-size: 16px;
 		color: rgba(0,0,0,1);
 	}
 	#Image_2_Review {
 		position: absolute;
 		left: 100px;
-		top: 2600px;
+		top: 2550px;
 		overflow: hidden;
 		width: 650px;
 		height: 70px;
@@ -226,7 +223,7 @@
 		font-family: Tahoma;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 18px;
+		font-size: 16px;
 		color: rgba(0,0,0,1);
 	}
 	#Image_3_Review {
@@ -240,13 +237,13 @@
 		font-family: Tahoma;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 18px;
+		font-size: 16px;
 		color: rgba(0,0,0,1);
 	}
 	#Image_4_Review {
 		position: absolute;
 		left: 100px;
-		top: 3800px;
+		top: 3750px;
 		overflow: hidden;
 		width: 650px;
 		height: 70px;
@@ -254,13 +251,13 @@
 		font-family: Tahoma;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 18px;
+		font-size: 16px;
 		color: rgba(0,0,0,1);
 	}
 	#Image_5_Review {
 		position: absolute;
 		left: 1180px;
-		top: 4350px;
+		top: 4300px;
 		overflow: hidden;
 		width: 650px;
 		height: 70px;
@@ -268,7 +265,7 @@
 		font-family: Tahoma;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 18px;
+		font-size: 16px;
 		color: rgba(0,0,0,1);
 	}
 	#Image_1_Title a {
@@ -349,7 +346,7 @@
 	#Controller_1_Image {
 		position: absolute;
 		left: 0px;
-		top: 4600px;
+		top: 4500px;
 		width: 100%;
 		height: 600px;
 		background: #f1f1f1;
@@ -365,6 +362,7 @@
 		left: 650px;
 		top: 100px;
 		font-size: 36px;
+		color: black;
 	}
 	#Controller_1_Image p {
 		position: absolute;
@@ -376,7 +374,7 @@
 	#Controller_2_Image {
 		position: absolute;
 		left: 0px;
-		top: 5100px;
+		top: 5110px;
 		width: 100%;
 		height: 600px;
 		background: #f1f1f1;
@@ -392,6 +390,7 @@
 		left: 650px;
 		top: 100px;
 		font-size: 36px;
+		color: black;
 	}
 	#Controller_2_Image p {
 		position: absolute;
@@ -403,7 +402,7 @@
 	#Controller_3_Image {
 		position: absolute;
 		left: 0px;
-		top: 5700px;
+		top: 5720px;
 		width: 100%;
 		height: 600px;
 		background: #f1f1f1;
@@ -419,6 +418,7 @@
 		left: 650px;
 		top: 100px;
 		font-size: 36px;
+		color: black;
 	}
 	#Controller_3_Image p {
 		position: absolute;
@@ -430,17 +430,17 @@
 
 	#Accessories {
 		position: absolute;
-		left: 50px;
+		left: 150px;
 		top: 6400px;
 		text-align: center;
 		float: left;
 	}
 	#Accessories a {
 		float: left;
-		margin: 10px;
+		margin: 20px;
 		text-decoration: none;
 		background: #f1f1f1;
-		height: 400px;
+		height: 410px;
 		border-radius: 5px;
 	}
 	#Accessories img {
@@ -452,7 +452,7 @@
 	#Accessories p {
 		margin: 10px;
 		color: black;
-		font-size: 14px;
+		font-size: 18px;
 	}
 	#Accessories span {
 		position: relative;
