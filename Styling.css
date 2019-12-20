@@ -8,6 +8,10 @@
 		--web-view-ids: Content;
 	}
 
+	html {
+  scroll-behavior: smooth;
+	}
+
 	* {
 		margin: 0;
 		padding: 0;
@@ -50,6 +54,7 @@
 		font-size: 30px;
 		color: white;
 		margin: 50px;
+		scroll-behavior: smooth;
 	}
 
 	#Navbar a:hover {
