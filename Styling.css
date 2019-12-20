@@ -1,0 +1,484 @@
+	.mediaViewInfo {
+		--web-view-name: Content;
+		--web-view-id: Content;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Content;
+	}
+
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+		font-family: sans-serif;
+	}
+
+	#Content {
+		position: absolute;
+		background: #E5E5E5;
+		width: 1920px;
+		height: 7100px;
+		background-color: rgba(255,255,255,1);
+		--web-view-name: Content;
+		--web-view-id: Content;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+		overflow-x: hidden;
+	}
+	#Space {
+		position: absolute;
+		width: 1500px;
+		height: 650px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Navbar a {
+		position: relative;
+		left: 200px;
+		top: 50px;
+		overflow: hidden;
+		display: inline;
+		width: 200px;
+		height: 100px;
+		text-align: center;
+		text-decoration: none;
+		font-family: Tahoma;
+		font-size: 30px;
+		color: white;
+		margin: 50px;
+	}
+
+	#Navbar a:hover {
+		border-bottom: 1px solid white;
+	}
+
+	#VR_Woman {
+		position: absolute;
+		width: 765px;
+		height: 510px;
+		left: 1155px;
+		top: 100px;
+		overflow: visible;
+	}
+	#VR {
+		position: absolute;
+		width: 865px;
+		height: 1190px;
+		left: 1050px;
+		top: 500px;
+		overflow: visible;
+	}
+	#VR-Content {
+		position: absolute;
+		left: 50px;
+		top: 840px;
+		overflow: hidden;
+		width: 900px;
+		height: 600px;
+		text-align: center;
+		font-family: Tahoma;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+	}
+	#Image_1 {
+		position: absolute;
+		width: 950px;
+		height: 550px;
+		left: 50px;
+		top: 1600px;
+		overflow: visible;
+	}
+	#Image_2 {
+		position: absolute;
+		width: 950px;
+		height: 550px;
+		left: 890px;
+		top: 2200px;
+		overflow: visible;
+	}
+	#Image_3 {
+		position: absolute;
+		width: 950px;
+		height: 750px;
+		left: 50px;
+		top: 2650px;
+		overflow: visible;
+	}
+	#Image_4 {
+		position: absolute;
+		width: 900px;
+		height: 800px;
+		left: 970px;
+		top: 3225px;
+		overflow: visible;
+	}
+	#Image_5 {
+		position: absolute;
+		width: 900px;
+		height: 700px;
+		left: 50px;
+		top: 3800px;
+		overflow: visible;
+	}
+	#Image_1_Content {
+		position: absolute;
+		left: 1120px;
+		top: 1750px;
+		overflow: hidden;
+		width: 750px;
+		height: 400px;
+		text-align: center;
+		font-family: Tahoma;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+	}
+	#Image_2_Content {
+		position: absolute;
+		left: 50px;
+		top: 2300px;
+		overflow: hidden;
+		width: 750px;
+		height: 400px;
+		text-align: center;
+		font-family: Tahoma;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+	}
+	#Image_3_Content {
+		position: absolute;
+		left: 1120px;
+		top: 2900px;
+		overflow: hidden;
+		width: 750px;
+		height: 400px;
+		text-align: center;
+		font-family: Tahoma;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+	}
+	#Image_4_Content {
+		position: absolute;
+		left: 50px;
+		top: 3500px;
+		overflow: hidden;
+		width: 750px;
+		height: 400px;
+		text-align: center;
+		font-family: Tahoma;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+	}
+	#Image_5_Content {
+		position: absolute;
+		left: 1120px;
+		top: 4050px;
+		overflow: hidden;
+		width: 750px;
+		height: 400px;
+		text-align: center;
+		font-family: Tahoma;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+	}
+	#Image_1_Review {
+		position: absolute;
+		left: 1180px;
+		top: 2050px;
+		overflow: hidden;
+		width: 650px;
+		height: 70px;
+		text-align: center;
+		font-family: Tahoma;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Image_2_Review {
+		position: absolute;
+		left: 100px;
+		top: 2600px;
+		overflow: hidden;
+		width: 650px;
+		height: 70px;
+		text-align: center;
+		font-family: Tahoma;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Image_3_Review {
+		position: absolute;
+		left: 1180px;
+		top: 3200px;
+		overflow: hidden;
+		width: 650px;
+		height: 70px;
+		text-align: center;
+		font-family: Tahoma;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Image_4_Review {
+		position: absolute;
+		left: 100px;
+		top: 3800px;
+		overflow: hidden;
+		width: 650px;
+		height: 70px;
+		text-align: center;
+		font-family: Tahoma;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Image_5_Review {
+		position: absolute;
+		left: 1180px;
+		top: 4350px;
+		overflow: hidden;
+		width: 650px;
+		height: 70px;
+		text-align: center;
+		font-family: Tahoma;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Image_1_Title a {
+		position: absolute;
+		left: 1350px;
+		top: 1650px;
+		overflow: hidden;
+		width: 300px;
+		height: 50px;
+		text-align: center;
+		font-family: Tahoma;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(6,6,255,1);
+		text-decoration: true;
+	}
+	#Image_2_Title a {
+		position: absolute;
+		left: 275px;
+		top: 2200px;
+		overflow: hidden;
+		width: 300px;
+		height: 50px;
+		text-align: center;
+		font-family: Tahoma;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(6,6,255,1);
+		text-decoration: true;
+	}
+	#Image_3_Title a {
+		position: absolute;
+		left: 1350px;
+		top: 2800px;
+		overflow: hidden;
+		width: 300px;
+		height: 50px;
+		text-align: center;
+		font-family: Tahoma;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(6,6,255,1);
+		text-decoration: true;
+	}
+	#Image_4_Title a {
+		position: absolute;
+		left: 275px;
+		top: 3400px;
+		overflow: hidden;
+		width: 300px;
+		height: 50px;
+		text-align: center;
+		font-family: Tahoma;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(6,6,255,1);
+		text-decoration: true;
+	}
+	#Image_5_Title a {
+		position: absolute;
+		left: 1350px;
+		top: 3950px;
+		overflow: hidden;
+		width: 300px;
+		height: 50px;
+		text-align: center;
+		font-family: Tahoma;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(6,6,255,1);
+		text-decoration: true;
+	}
+	#Controller_1_Image {
+		position: absolute;
+		left: 0px;
+		top: 4600px;
+		width: 100%;
+		height: 600px;
+		background: #f1f1f1;
+	}
+	#Controller_1_Image img {
+		position: absolute;
+		left: 0px;
+		width: 400px;
+		height: 600px;
+	}
+	#Controller_1_Image h1 {
+		position: absolute;
+		left: 650px;
+		top: 100px;
+		font-size: 36px;
+	}
+	#Controller_1_Image p {
+		position: absolute;
+		left: 600px;
+		top: 200px;
+		width: 1000px;
+		font-size: 24px;
+	}
+	#Controller_2_Image {
+		position: absolute;
+		left: 0px;
+		top: 5100px;
+		width: 100%;
+		height: 600px;
+		background: #f1f1f1;
+	}
+	#Controller_2_Image img {
+		position: absolute;
+		left: 0px;
+		width: 400px;
+		height: 600px;
+	}
+	#Controller_2_Image h1 {
+		position: absolute;
+		left: 650px;
+		top: 100px;
+		font-size: 36px;
+	}
+	#Controller_2_Image p {
+		position: absolute;
+		left: 600px;
+		top: 200px;
+		width: 1000px;
+		font-size: 24px;
+	}
+	#Controller_3_Image {
+		position: absolute;
+		left: 0px;
+		top: 5700px;
+		width: 100%;
+		height: 600px;
+		background: #f1f1f1;
+	}
+	#Controller_3_Image img {
+		position: absolute;
+		left: 0px;
+		width: 400px;
+		height: 600px;
+	}
+	#Controller_3_Image h1 {
+		position: absolute;
+		left: 650px;
+		top: 100px;
+		font-size: 36px;
+	}
+	#Controller_3_Image p {
+		position: absolute;
+		left: 600px;
+		top: 200px;
+		width: 1000px;
+		font-size: 24px;
+	}
+
+	#Accessories {
+		position: absolute;
+		left: 50px;
+		top: 6400px;
+		text-align: center;
+		float: left;
+	}
+	#Accessories a {
+		float: left;
+		margin: 10px;
+		text-decoration: none;
+		background: #f1f1f1;
+		height: 400px;
+		border-radius: 5px;
+	}
+	#Accessories img {
+		position: relative;
+		top: 10px;
+		width: 200px;
+		height: 200px;
+	}
+	#Accessories p {
+		margin: 10px;
+		color: black;
+		font-size: 14px;
+	}
+	#Accessories span {
+		position: relative;
+		top: 10px;
+		padding: 10px;
+		padding-left: 100px;
+		padding-right: 100px;
+		border-radius: 5px;
+		background: #F3CC6D;
+		border: 1px solid #9B893F;
+		color: black;
+	}
+
+	#Accessories a:hover {
+		position: relative;
+		top: -5px;
+		box-shadow:20px 20px 50px grey;
+	}
+	#footer {
+		position: absolute;
+		top: 7000px;
+		background: black;
+		width: 100%;
+		height: 100px;
+		border-top: 2px solid #333;
+	}
+
+	#footer p {
+		position: relative;
+		left: 1600px;
+		top: 50px;
+		font-size: 18px;
+		color: #333;
+	}
