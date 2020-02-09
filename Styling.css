@@ -162,12 +162,36 @@
 		left: 15px;
 		color: orange;
 	}
-
 	#Rift {
 		position: relative;
 		top: 300px;
 		text-align: left;
 	}
+	#Rift img {
+		position: relative;
+		left: -550px;
+		width: 300px;
+	}
+	#Rift h1 {
+		position: relative;
+		left: -560px;
+		font-size: 50px;
+		font-family: 'Roboto', sans-serif;
+	}
+	#Rift h2 {
+		position: relative;
+		left: -550px;
+		font-size: 25px;
+		font-family: 'Roboto', sans-serif;
+		color: grey;
+	}
+	#Buy-Rift-1 {
+		position: relative;
+		left: -570px;
+		top: 30px;
+		overflow: visible;
+	}
+	@media screen and (max-width: 1200px) {
 	#Rift img {
 		position: relative;
 		left: 250px;
@@ -186,6 +210,13 @@
 		font-family: 'Roboto', sans-serif;
 		color: grey;
 	}
+	#Buy-Rift-1 {
+		position: relative;
+		left: 230px;
+		top: 30px;
+		overflow: visible;
+	}
+	}
 	#Rift p {
 		position: relative;
 		left: 250px;
@@ -194,12 +225,6 @@
 		font-size: 26px;
 		font-family: 'Roboto', sans-serif;
 		color: black;
-	}
-	#Buy-Rift-1 {
-		position: relative;
-		left: 230px;
-		top: 30px;
-		overflow: visible;
 	}
 	#Buy-Rift-1 a {
 		font-size: 26px;
@@ -332,7 +357,6 @@
 		font-size: 50px;
 		font-family: 'Roboto', sans-serif;
 		letter-spacing: 2px;
-		text-align: center;
 	}
 	#Included img {
 		position: relative;
