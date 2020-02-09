@@ -170,18 +170,18 @@
 	}
 	#Rift img {
 		position: relative;
-		left: -550px;
+		left: 250px;
 		width: 300px;
 	}
 	#Rift h1 {
 		position: relative;
-		left: -560px;
+		left: 260px;
 		font-size: 50px;
 		font-family: 'Roboto', sans-serif;
 	}
 	#Rift h2 {
 		position: relative;
-		left: -550px;
+		left: 250px;
 		font-size: 25px;
 		font-family: 'Roboto', sans-serif;
 		color: grey;
@@ -197,7 +197,7 @@
 	}
 	#Buy-Rift-1 {
 		position: relative;
-		left: -570px;
+		left: 230px;
 		top: 30px;
 		overflow: visible;
 	}
