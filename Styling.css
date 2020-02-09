@@ -3,20 +3,14 @@
 		padding: 0;
 		box-sizing: border-box;
 		border: none;
-		overflow-x: hidden;
 	}
 	body{
 		background-color: #F2F2F2;
-	}
-	#Content {
-		position: absolute;
 		width: 100%;
-		overflow: visible;
+		overflow-x: hidden;
 	}
-	#Navbar-2 {
-		display: inline;
-		float: right;
-		overflow: visible;
+	#Video {
+		overflow: hidden;
 	}
 	#Navbar {
 		position: absolute;
@@ -24,10 +18,11 @@
 		left: 0px;
 		background: silver;
 		width: 100%;
-		height: 50px;
+		height: 45px;
 		opacity: 0.7;
-		text-align: left;
 		position: fixed;
+		display: inline;
+		overflow: hidden;
 	}
 	#Navbar a {
 		position: relative;
@@ -38,7 +33,7 @@
 		font-family: Tahoma;
 		font-size: 26px;
 		color: white;
-		margin: 50px;
+		margin: 30px;
 		font-family: 'Overpass', sans-serif;
 	}
 	#Navbar a:hover {
@@ -53,7 +48,6 @@
 	#Middle{
 		position: relative;
 		top: 100px;
-		overflow: visible;
 	}
 	#Middle video {
 		width: 800px;
@@ -91,28 +85,25 @@
 	}
 	#Quest p {
 		position: relative;
-		left: 100px;
 		top: 100px;
+		left: 100px;
 		width: 600px;
 		font-size: 26px;
 		font-family: 'Roboto', sans-serif;
 		color: black;
+		overflow: hidden;
 	}
-	#Quest h3 {
+	#Buy-Quest-1 h3 {
 		position: relative;
+		left: 100px;
 		top: 25px;
 		font-size: 26px;
 		font-family: 'Roboto', sans-serif;
 	}
-	#Buy-Quest-1 {
-		position: relative;
-		top: 10px;
-		left: 100px;
-	}
 	#Buy-Quest-1 a {
 		position: relative;
 		top: -10px;
-		left: 200px;
+		left: 300px;
 		font-size: 26px;
 		padding: 10px;
 		padding-left: 30px;
@@ -142,6 +133,12 @@
 		border-radius: 10px;
 		font-family: 'Roboto', sans-serif;
 	}
+	#Buy-Quest-2 h3 {
+		position: relative;
+		top: 25px;
+		font-size: 26px;
+		font-family: 'Roboto', sans-serif;
+	}
 	#Buy-Quest-1 a:hover {
 		background-color: #39A9EE;
 	}
@@ -168,52 +165,43 @@
 
 	#Rift {
 		position: relative;
-		top: 50px;
-		text-align: right;
+		top: 300px;
+		text-align: left;
 	}
 	#Rift img {
 		position: relative;
-		left: 0px;
+		left: -550px;
 		width: 300px;
 	}
 	#Rift h1 {
 		position: relative;
-		left: 10px;
+		left: -560px;
 		font-size: 50px;
 		font-family: 'Roboto', sans-serif;
 	}
 	#Rift h2 {
 		position: relative;
-		left: 0px;
+		left: -550px;
 		font-size: 25px;
 		font-family: 'Roboto', sans-serif;
 		color: grey;
 	}
 	#Rift p {
 		position: relative;
-		left: 500px;
+		left: 250px;
 		top: 100px;
 		width: 600px;
 		font-size: 26px;
 		font-family: 'Roboto', sans-serif;
 		color: black;
 	}
-	#Rift h3 {
-		position: relative;
-		top: 25px;
-		font-size: 26px;
-		font-family: 'Roboto', sans-serif;
-	}
 	#Buy-Rift-1 {
 		position: relative;
-		top: 40px;
-		left: 210px;
+		left: -570px;
+		top: 30px;
 		overflow: visible;
 	}
 	#Buy-Rift-1 a {
-		position: relative;
-		top: -10px;
-		left: -200px;
 		font-size: 26px;
 		padding: 10px;
 		padding-left: 30px;
@@ -229,7 +217,7 @@
 	}
 	#Rift-Review {
 		position: relative;
-		left: 0px;
+		left: 250px;
 		top: 70px;
 	}
 	#Rift a {
@@ -242,7 +230,7 @@
 
 	#Go {
 		position: relative;
-		top: 100px;
+		top: 500px;
 		text-align: left;
 		overflow: visible;
 	}
@@ -266,12 +254,13 @@
 	}
 	#Go p {
 		position: relative;
-		left: 100px;
 		top: 100px;
+		left: 100px;
 		width: 600px;
 		font-size: 26px;
 		font-family: 'Roboto', sans-serif;
 		color: black;
+		overflow: hidden;
 	}
 	#Go h3 {
 		position: relative;
@@ -337,21 +326,15 @@
 	}
 	#Included {
 		position: relative;
-		top: 300px;
-		left: 10%;
-		width: 80%;
-		text-align: center;
+		top: 800px;
 	}
 	#Included h1 {
 		font-size: 50px;
 		font-family: 'Roboto', sans-serif;
 		letter-spacing: 2px;
+		text-align: center;
 	}
-	#Footer {
+	#Included img {
 		position: relative;
-		top: 300px;
-		width: 100%;
-		height: 100px;
-		border-top: 5px solid #333;
-		background-color: black;
+		left: 10%;
 	}
